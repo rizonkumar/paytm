@@ -5,6 +5,7 @@ const { User } = require("../db");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const JWT_SECRET = require("../config");
+const { authMiddleware } = require("../middleware");
 
 // sign up routes
 
