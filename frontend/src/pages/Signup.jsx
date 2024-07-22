@@ -1,8 +1,8 @@
-import { BottomWarning } from "../src/components/BottomWarning"
-import { Button } from "../src/components/Button"
-import { Heading } from "../src/components/Heading"
-import { InputBox } from "../src/components/InputBox"
-import { SubHeading } from "../src/components/SubHeading"
+import { Button } from "../components/Button";
+import { BottomWarning } from "../components/BottomWarning"
+import { Heading } from "../components/Heading"
+import { InputBox } from "../components/InputBox"
+import { SubHeading } from "../components/SubHeading"
 import axios from "axios";
 import { useNavigate } from "react-router-dom"
 
